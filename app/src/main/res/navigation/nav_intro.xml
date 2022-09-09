@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_intro"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.ofinsurance.firstFragment"
+        android:label="fragment_first"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_intro"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment_to_secondFragment"
+            app:destination="@id/secondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.ofinsurance.secondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_secondFragment_to_firstFragment"
+            app:destination="@id/firstFragment" />
+        <action
+            android:id="@+id/action_secondFragment_to_thirdfragment2"
+            app:destination="@id/thirdfragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdfragment2"
+        android:name="com.example.ofinsurance.thirdfragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/action_thirdfragment2_to_secondFragment"
+            app:destination="@id/secondFragment" />
+        <action
+            android:id="@+id/action_thirdfragment2_to_fourthfragment"
+            app:destination="@id/fourthfragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fourthfragment"
+        android:name="com.example.ofinsurance.fourthfragment"
+        android:label="fragment_fourth"
+        tools:layout="@layout/fragment_fourth" >
+        <action
+            android:id="@+id/action_fourthfragment_to_thirdfragment2"
+            app:destination="@id/thirdfragment2" />
+    </fragment>
+</navigation>

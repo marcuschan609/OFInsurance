@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">One Future Insurance</string>
+    <string name="page1intro">WE HAVE GREAT NEWS</string>
+    <string name="loginline1">e-Channel Portal</string>
+    <string name="registerline1">e-Channel Portal\nRegistration</string>
+    <string name="logregpolicy">By proceeding you also agree to the Terms of Service\nand Privacy Policy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
