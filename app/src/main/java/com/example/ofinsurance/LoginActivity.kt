@@ -23,11 +23,10 @@ class LoginActivity : AppCompatActivity() {
         var loginbtn = findViewById<Button>(R.id.loginbtn)
 
         loginbtn.setOnClickListener {
-            if (usernameed.toString().isEmpty()) {
+            if (usernameed.text.toString().trim().isEmpty() || passworded.text.toString().trim().isEmpty()) {
                 Toast.makeText(this, "Input Required", Toast.LENGTH_SHORT).show()
-            } else {
-                Toast.makeText(this, "Loading...", Toast.LENGTH_SHORT).show()
-
+            }else{
+                Toast.makeText(this, "Client Logging In...", Toast.LENGTH_SHORT).show()
             }
         }
     }

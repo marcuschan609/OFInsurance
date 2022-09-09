@@ -13,12 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OFinsurance"
         tools:targetApi="31">
+
         <activity
             android:name=".LoginActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Register"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
