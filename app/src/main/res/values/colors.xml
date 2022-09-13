@@ -11,4 +11,7 @@
     <color name="red">#CF1313</color>
     <color name="darkblue">#082178</color>
     <color name="yellow">#B5AC0B</color>
+    <color name="fragment1color">#FF6200EE</color>
+    <color name="fragment2color">#FF000000</color>
+    <color name="Grey">#D3D3D3</color>
 </resources>

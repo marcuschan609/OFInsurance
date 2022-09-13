@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+
+
+    <item
+        android:id="@+id/nav_guide"
+        android:icon="@drawable/ic_baseline_book_24"
+        android:title="Guide" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Settings" />
+
+
+
+    </group>
+
+
+    <item android:title="Features">
+
+        <menu>
+
+            <group>
+                <item
+                    android:id="@+id/nav_owned"
+                    android:icon="@drawable/ic_baseline_person_24"
+                    android:title="Owned"/>
+
+                <item
+                    android:id="@+id/nav_product"
+                    android:icon="@drawable/ic_baseline_category_24"
+                    android:title="Product"/>
+
+                <item
+                    android:id="@+id/nav_agent"
+                    android:icon="@drawable/ic_baseline_call_24"
+                    android:title="Agent"/>
+
+
+
+
+            </group>
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="Account">
+
+    <menu>
+
+        <group>
+            <item
+                android:id="@+id/nav_login"
+                android:title="Login"/>
+
+            <item
+            android:id="@+id/nav_register"
+            android:title="Register"/>
+
+
+
+
+        </group>
+
+    </menu>
+
+    </item>
+
+    <item android:title="Communication">
+
+        <menu>
+
+            <group>
+                <item
+                    android:id="@+id/nav_faq"
+                    android:title="FAQ"/>
+
+                <item
+                    android:id="@+id/nav_location"
+                    android:title="Location"/>
+
+            </group>
+
+        </menu>
+
+    </item>
+
+
+</menu>
