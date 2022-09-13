@@ -17,8 +17,8 @@ class secondFragment : Fragment() {
         val next : Button = view.findViewById(R.id.next1btn)
         next.setOnClickListener{
             val fragment = thirdFragment()
-            val transaction = fragmentManager?.beginTransaction()
-            transaction?.replace(R.id.nav_intro,fragment)?.commit()
+            val transaction = parentFragmentManager.beginTransaction()
+            transaction.replace(R.id.nav_intro,fragment).commit()
         }
         return view
     }
