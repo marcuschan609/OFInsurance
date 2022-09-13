@@ -9,7 +9,6 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import com.example.ofinsurance.databinding.ActivityMainBinding
 import com.google.android.material.navigation.NavigationView
-
 class HomeActivity : AppCompatActivity() {
 
     lateinit var drawerLayout: DrawerLayout
