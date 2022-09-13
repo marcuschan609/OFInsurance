@@ -14,12 +14,10 @@ class HomeActivity : AppCompatActivity() {
 
     lateinit var drawerLayout: DrawerLayout
     lateinit var toggle : ActionBarDrawerToggle
-    lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContentView(R.layout.activity_home)
 
         drawerLayout = findViewById(R.id.drawerLayout)
         val navView : NavigationView = findViewById(R.id.nav_View)
