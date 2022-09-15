@@ -27,6 +27,7 @@ class LoginActivity : AppCompatActivity() {
                 Toast.makeText(this, "Input Required", Toast.LENGTH_SHORT).show()
             }else{
                 Toast.makeText(this, "Client Logging In...", Toast.LENGTH_SHORT).show()
+
             }
         }
     }
