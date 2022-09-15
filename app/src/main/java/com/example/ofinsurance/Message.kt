@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 
 
-class MessageFragment : Fragment() {
+class Message : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
