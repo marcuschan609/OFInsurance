@@ -4,20 +4,26 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/jonat/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/activity_home.xml" value="0.12158054711246201" />
-        <entry key="..\:/Users/jonat/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/activity_main.xml" value="0.10190217391304347" />
-        <entry key="..\:/Users/jonat/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_agent.xml" value="0.1" />
-        <entry key="..\:/Users/jonat/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_faq.xml" value="0.2210144927536232" />
-        <entry key="..\:/Users/jonat/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_guide.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/jonat/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_home.xml" value="0.2210144927536232" />
-        <entry key="..\:/Users/jonat/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_location.xml" value="0.2210144927536232" />
-        <entry key="..\:/Users/jonat/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_message.xml" value="0.2210144927536232" />
-        <entry key="..\:/Users/jonat/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_owned.xml" value="0.4" />
-        <entry key="..\:/Users/jonat/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_owned_bill.xml" value="0.2210144927536232" />
-        <entry key="..\:/Users/jonat/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_product.xml" value="0.2210144927536232" />
-        <entry key="..\:/Users/jonat/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_second.xml" value="0.1" />
-        <entry key="..\:/Users/jonat/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_settings.xml" value="0.2210144927536232" />
         <entry key="..\:/Users/jonat/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_third.xml" value="0.2210144927536232" />
-        <entry key="..\:/Users/jonat/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/nav_header.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/activity_home.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/activity_login.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/activity_main.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/activity_register.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_agent.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_faq.xml" value="0.28854166666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_first.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_fourth.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_guide.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_home.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_message.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_owned.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_owned_bill.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_product.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_second.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_settings.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_third.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/nav_header.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/menu/nav_menu.xml" value="0.35052083333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/OFinsurance/app/src/main/res/drawable-v24/ic_baseline_person_24.xml" value="0.206" />
         <entry key="..\:/Users/user/AndroidStudioProjects/OFinsurance/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.325" />
         <entry key="..\:/Users/user/AndroidStudioProjects/OFinsurance/app/src/main/res/drawable/ic_launcher_background.xml" value="0.325" />
