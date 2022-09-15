@@ -7,18 +7,18 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 
-class thirdFragment : Fragment() {
+class intropg2 : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_third, container, false)
-        val next : Button = view.findViewById(R.id.next2btn)
+        val view = inflater.inflate(R.layout.fragment_second, container, false)
+        val next : Button = view.findViewById(R.id.next1btn)
         next.setOnClickListener{
-            val fragment = fourthFragment()
-            val transaction = fragmentManager?.beginTransaction()
-            transaction?.replace(R.id.nav_intro,fragment)?.commit()
+            val fragment = intropg3()
+            val transaction = parentFragmentManager.beginTransaction()
+            transaction.replace(R.id.nav_intro,fragment).commit()
         }
         return view
     }

@@ -6,9 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import androidx.appcompat.app.ActionBar
 
-class firstFragment : Fragment() {
+class intropg1 : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -17,7 +16,7 @@ class firstFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_first, container, false)
         val next : Button = view.findViewById(R.id.nextbtn)
         next.setOnClickListener{
-            val fragment = secondFragment() //navigate to second fragment
+            val fragment = intropg2() //navigate to second fragment
             val transaction = fragmentManager?.beginTransaction()
             transaction?.replace(R.id.nav_intro,fragment)?.commit()
         }

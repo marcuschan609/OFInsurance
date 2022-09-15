@@ -9,14 +9,14 @@ import android.view.ViewGroup
 import android.widget.Button
 import com.example.ofinsurance.databinding.FragmentFourthBinding
 
-class fourthFragment : Fragment() {
+class intropg4 : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
         val view = FragmentFourthBinding.inflate(layoutInflater)
         view.loginregbtn.setOnClickListener{
-            val intent = Intent (this@fourthFragment.requireContext(),LoginActivity::class.java)
+            val intent = Intent (this@intropg4.requireContext(),LoginActivity::class.java)
             startActivity(intent)
         }
 

@@ -11,6 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //make the launcher screen as first fragment
-        supportFragmentManager.beginTransaction().replace(R.id.nav_intro,firstFragment()).commit()
+        supportFragmentManager.beginTransaction().replace(R.id.nav_intro,intropg1()).commit()
     }
 }
