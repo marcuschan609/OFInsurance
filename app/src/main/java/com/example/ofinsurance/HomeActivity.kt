@@ -7,7 +7,6 @@ import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
-import com.example.ofinsurance.databinding.ActivityMainBinding
 import com.google.android.material.navigation.NavigationView
 class HomeActivity : AppCompatActivity() {
 
@@ -32,16 +31,16 @@ class HomeActivity : AppCompatActivity() {
             it.isChecked = true
             when(it.itemId){
 
-                R.id.nav_home -> replaceFragment(HomeFragment(), it.title.toString())
+                R.id.nav_home -> replaceFragment(Home(), it.title.toString())
                 R.id.nav_guide -> Toast.makeText(applicationContext,"Clicked Home", Toast.LENGTH_SHORT).show()
                 R.id.nav_setting -> Toast.makeText(applicationContext,"Clicked Home", Toast.LENGTH_SHORT).show()
-                R.id.nav_owned -> replaceFragment(OwnedFragment(), it.title.toString())
+                R.id.nav_owned -> replaceFragment(Owned(), it.title.toString())
                 R.id.nav_product -> Toast.makeText(applicationContext,"Clicked Home", Toast.LENGTH_SHORT).show()
                 R.id.nav_agent -> Toast.makeText(applicationContext,"Clicked Home", Toast.LENGTH_SHORT).show()
                 R.id.nav_login -> Toast.makeText(applicationContext,"Clicked Home", Toast.LENGTH_SHORT).show()
-                R.id.nav_register -> replaceFragment(HomeFragment(), it.title.toString())
-                R.id.nav_faq -> replaceFragment(HomeFragment(), it.title.toString())
-                R.id.nav_location -> replaceFragment(HomeFragment(), it.title.toString())
+                R.id.nav_register -> replaceFragment(Home(), it.title.toString())
+                R.id.nav_faq -> replaceFragment(Home(), it.title.toString())
+                R.id.nav_location -> replaceFragment(Home(), it.title.toString())
 
 
 
