@@ -1,16 +1,13 @@
 package com.example.ofinsurance
 //dasd
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
-import android.view.MenuItem
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import androidx.appcompat.app.ActionBarDrawerToggle
-import androidx.drawerlayout.widget.DrawerLayout
-import androidx.fragment.app.Fragment
+import androidx.appcompat.app.AppCompatActivity
 import com.example.ofinsurance.databinding.ActivityLoginBinding
-import com.google.android.material.navigation.NavigationView
+
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
@@ -29,6 +26,8 @@ class LoginActivity : AppCompatActivity() {
                 Toast.makeText(this, "Client Logging In...", Toast.LENGTH_SHORT).show()
 
             }
+            val Intent = Intent(this,Home::class.java)
+            startActivity(Intent)
         }
     }
 }
