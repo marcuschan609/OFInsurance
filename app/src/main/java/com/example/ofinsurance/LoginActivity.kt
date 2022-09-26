@@ -30,7 +30,7 @@ class LoginActivity : AppCompatActivity() {
                 startActivity(intent)
             }else{
                 Toast.makeText(this, "Client Logging In...", Toast.LENGTH_SHORT).show()
-
+//sdf
             }
         }
     }
