@@ -1,5 +1,6 @@
 package com.example.ofinsurance
 //dasd
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
@@ -25,6 +26,8 @@ class LoginActivity : AppCompatActivity() {
         loginbtn.setOnClickListener {
             if (usernameed.text.toString().trim().isEmpty() || passworded.text.toString().trim().isEmpty()) {
                 Toast.makeText(this, "Input Required", Toast.LENGTH_SHORT).show()
+                val intent = Intent (this,HomeActivity::class.java)
+                startActivity(intent)
             }else{
                 Toast.makeText(this, "Client Logging In...", Toast.LENGTH_SHORT).show()
 
