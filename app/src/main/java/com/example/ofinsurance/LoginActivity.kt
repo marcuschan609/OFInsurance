@@ -1,5 +1,4 @@
 package com.example.ofinsurance
-//dasd
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -30,7 +29,6 @@ class LoginActivity : AppCompatActivity() {
                 startActivity(intent)
             }else{
                 Toast.makeText(this, "Client Logging In...", Toast.LENGTH_SHORT).show()
-//sdf
             }
         }
     }
