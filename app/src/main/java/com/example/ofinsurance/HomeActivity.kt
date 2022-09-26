@@ -31,16 +31,13 @@ class HomeActivity : AppCompatActivity() {
             it.isChecked = true
             when(it.itemId){
 
-                R.id.nav_home -> replaceFragment(Home(), it.title.toString())
-                R.id.nav_guide -> Toast.makeText(applicationContext,"Clicked Home", Toast.LENGTH_SHORT).show()
-                R.id.nav_setting -> Toast.makeText(applicationContext,"Clicked Home", Toast.LENGTH_SHORT).show()
+                R.id.nav_guide -> replaceFragment(Guide(), it.title.toString())
+                R.id.nav_setting -> replaceFragment(Settings(), it.title.toString())
                 R.id.nav_owned -> replaceFragment(Owned(), it.title.toString())
-                R.id.nav_product -> Toast.makeText(applicationContext,"Clicked Home", Toast.LENGTH_SHORT).show()
-                R.id.nav_agent -> Toast.makeText(applicationContext,"Clicked Home", Toast.LENGTH_SHORT).show()
-                R.id.nav_login -> Toast.makeText(applicationContext,"Clicked Home", Toast.LENGTH_SHORT).show()
-                R.id.nav_register -> replaceFragment(Home(), it.title.toString())
-                R.id.nav_faq -> replaceFragment(Home(), it.title.toString())
-                R.id.nav_location -> replaceFragment(Home(), it.title.toString())
+                R.id.nav_product -> replaceFragment(Product(), it.title.toString())
+                R.id.nav_agent -> replaceFragment(Agent(), it.title.toString())
+                R.id.nav_faq -> replaceFragment(Faq(), it.title.toString())
+                R.id.nav_location -> replaceFragment(Location(), it.title.toString())
 
 
 
