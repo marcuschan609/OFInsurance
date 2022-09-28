@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/echannelregister">
-        <EditText
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/usernameed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -59,7 +59,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/usernametv">
-        <EditText
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/emailed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -74,9 +74,11 @@
         android:hint="Password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailtv">
-        <EditText
+        app:layout_constraintTop_toBottomOf="@+id/emailtv"
+        app:passwordToggleEnabled="true">
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/passed"
+            android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -90,9 +92,11 @@
         android:hint="Re-type password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passtv">
-        <EditText
+        app:layout_constraintTop_toBottomOf="@+id/passtv"
+        app:passwordToggleEnabled="true">
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/repassed"
+            android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -114,17 +118,17 @@
         android:layout_height="wrap_content"
         android:text="@string/logregpolicy"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@id/logintv"
+        app:layout_constraintBottom_toTopOf="@id/backtologintv"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/registerbtn" />
 
 
     <TextView
-        android:id="@+id/logintv"
+        android:id="@+id/backtologintv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back to Login"
+        android:text="Already Registered, Sign In!"
         android:textColor="@color/red"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
