@@ -13,10 +13,7 @@ class location: Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        View view = inflater
+        return inflater.inflate(R.layout.fragment_message, container, false)
 
-        return
     }
-
-
 }
