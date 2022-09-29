@@ -6,8 +6,9 @@
     <string name="logregpolicy">By proceeding you also agree to the Terms of Service\nand Privacy Policy</string>
 
     <string name="app_name1">OFinsurance</string>
-    <string name="open"></string>
-    <string name="close"></string>
+    <string name="open"/>
+    <string name="close"/>
+    <string name="require">Required</string>
 
     <string-array name="spinner">
         <item>Credit Card</item>

@@ -14,4 +14,6 @@
     <color name="fragment1color">#FF6200EE</color>
     <color name="fragment2color">#FF000000</color>
     <color name="Grey">#D3D3D3</color>
+
+    <color name="channel">#55052E</color>
 </resources>
