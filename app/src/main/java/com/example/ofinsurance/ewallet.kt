@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 
 class ewallet: Fragment() {
 
@@ -12,9 +13,17 @@ class ewallet: Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        val view = inflater.inflate(R.layout.fragment_ewallet, container, false)
+        val proceed : Button = view.findViewById(R.id.btnproceed)
+        proceed.setOnClickListener{
+            val fragment = donepayment()
+            val transaction = fragmentManager?.beginTransaction()
+            transaction?.replace(R.id.ewallet,fragment)?.commit()
+            proceed.visibility = View.GONE
 
-        return inflater.inflate(R.layout.fragment_ewallet, container, false)
+        }
+
+
+        return view
     }
-
-
 }

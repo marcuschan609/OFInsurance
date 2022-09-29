@@ -17,6 +17,7 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
+
         drawerLayout = findViewById(R.id.drawerLayout)
         val navView : NavigationView = findViewById(R.id.nav_View)
 
@@ -31,13 +32,12 @@ class HomeActivity : AppCompatActivity() {
             it.isChecked = true
             when(it.itemId){
 
-                R.id.nav_guide -> replaceFragment(Guide(), it.title.toString())
                 R.id.nav_setting -> replaceFragment(Settings(), it.title.toString())
                 R.id.nav_owned -> replaceFragment(Owned(), it.title.toString())
                 R.id.nav_product -> replaceFragment(Product(), it.title.toString())
                 R.id.nav_agent -> replaceFragment(Agent(), it.title.toString())
-                R.id.nav_faq -> replaceFragment(Faq(), it.title.toString())
-                R.id.nav_location -> replaceFragment(Location(), it.title.toString())
+                R.id.nav_location -> replaceFragment(location(), it.title.toString())
+                R.id.nav_contactus -> replaceFragment(contactus(), it.title.toString())
 
 
 

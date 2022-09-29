@@ -1,5 +1,6 @@
 package com.example.ofinsurance
 
+import android.app.ActionBar
 import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -19,13 +20,12 @@ class payment : Fragment() {
         savedInstanceState: Bundle?
 
     ): View? {
-        // Inflate the layout for this fragment
+
         val view = inflater.inflate(R.layout.fragment_payment, container, false)
         val credit : Button = view.findViewById(R.id.btncredit)
         val debit : Button = view.findViewById(R.id.btndebit)
         val online : Button = view.findViewById(R.id.btnonline)
         val ewallet : Button = view.findViewById(R.id.btnewallet)
-
 
         credit.setOnClickListener {
             val fragment = creditcard()

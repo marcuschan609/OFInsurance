@@ -36,10 +36,6 @@
     </item>
 
 
-        <item
-            android:id="@+id/nav_guide"
-            android:icon="@drawable/ic_baseline_book_24"
-            android:title="Guide" />
 
         <item
             android:id="@+id/nav_setting"
@@ -56,13 +52,15 @@
         <menu>
 
             <group>
-                <item
-                    android:id="@+id/nav_faq"
-                    android:title="FAQ"/>
+
 
                 <item
                     android:id="@+id/nav_location"
-                    android:title="Location"/>
+                    android:title="Location" />
+
+                <item
+                    android:id="@+id/nav_contactus"
+                    android:title="Contact us" />
 
             </group>
 
@@ -70,5 +68,9 @@
 
     </item>
 
+
+    <item
+        android:id="@+id/nav_locati"
+        android:title=""/>
 
 </menu>
