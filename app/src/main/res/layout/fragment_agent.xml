@@ -8,77 +8,10 @@
     android:background="@color/Grey">
 
 
-    <FrameLayout
-        android:id="@+id/frameLayout"
-        android:layout_width="282dp"
-        android:layout_height="144dp"
-        android:layout_marginTop="60dp"
-        android:background="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </FrameLayout>
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="300dp"
-        android:text="Ali"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="95dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="121dp"
-        android:text="Joined since 2021"
-        android:textColor="@color/black"
-        android:textSize="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/circle1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="232dp"
-        android:layout_height="74dp"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="3dp"
-        android:layout_marginEnd="85dp"
-        android:text="Of welfare reform states now subject low cost health insurance Georgia in Malaysia who expansions to medicaid."
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/circle1" />
-
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/circle1"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="251dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="90dp"
-        android:src="@drawable/ic_baseline_person_24"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-
-
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="409dp"
+        android:layout_height="601dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

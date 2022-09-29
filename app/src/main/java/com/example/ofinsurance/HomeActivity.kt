@@ -41,7 +41,6 @@ class HomeActivity : AppCompatActivity() {
                 R.id.nav_agent -> replaceFragment(Agent(), it.title.toString())
                 R.id.nav_location -> replaceFragment(location(), it.title.toString())
                 R.id.nav_contactus -> replaceFragment(contactus(), it.title.toString())
-                R.id.nav_signout -> startActivity(intent)
 
 
 
