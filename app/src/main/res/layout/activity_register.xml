@@ -25,7 +25,7 @@
         android:fontFamily="@font/haltregular"
         android:text="@string/registerline1"
         android:textAlignment="center"
-        android:textColor="@color/red"
+        android:textColor="@color/channel"
         android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/usernametv"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,12 +34,17 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/usernametv"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="50dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="6"
         android:hint="Username"
+        app:helperText="@string/require"
+        app:helperTextTextColor="@color/red"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/echannelregister">
@@ -52,30 +57,40 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emailtv"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="50dp"
         android:hint="Email"
+        app:helperText="@string/require"
+        app:helperTextTextColor="@color/red"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/usernametv">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/emailed"
+            android:lines="1"
+            android:inputType="textEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/passtv"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="50dp"
         android:hint="Password"
+        app:counterEnabled="true"
+        app:counterMaxLength="12"
+        app:helperText="@string/require"
+        app:helperTextTextColor="@color/red"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailtv"
@@ -90,12 +105,18 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/repasstv"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="50dp"
+
+        app:counterEnabled="true"
         android:hint="Re-type password"
+        app:counterMaxLength="12"
+        app:helperText="@string/require"
+        app:helperTextTextColor="@color/red"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passtv"
