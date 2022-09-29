@@ -1,7 +1,9 @@
 package com.example.ofinsurance
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.TextUtils.replace
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -20,6 +22,7 @@ class HomeActivity : AppCompatActivity() {
 
         drawerLayout = findViewById(R.id.drawerLayout)
         val navView : NavigationView = findViewById(R.id.nav_View)
+        val intent = Intent(this, LoginActivity::class.java)
 
         toggle = ActionBarDrawerToggle(this,drawerLayout,R.string.open,R.string.close)
         drawerLayout.addDrawerListener(toggle)
@@ -38,6 +41,7 @@ class HomeActivity : AppCompatActivity() {
                 R.id.nav_agent -> replaceFragment(Agent(), it.title.toString())
                 R.id.nav_location -> replaceFragment(location(), it.title.toString())
                 R.id.nav_contactus -> replaceFragment(contactus(), it.title.toString())
+                R.id.nav_signout -> startActivity(intent)
 
 
 
@@ -45,6 +49,7 @@ class HomeActivity : AppCompatActivity() {
             true
 
         }
+
 
 
     }

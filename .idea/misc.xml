@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/jonat/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/activity_home.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/jonat/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_third.xml" value="0.2210144927536232" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/drawable-v24/ic_baseline_book_24.xml" value="0.245" />
         <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/drawable-v24/ic_baseline_call_24.xml" value="0.1275" />
         <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/drawable-v24/ic_baseline_call_missed_outgoing_24.xml" value="0.1275" />
         <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/drawable-v24/ic_baseline_category_24.xml" value="0.1275" />
@@ -15,8 +16,10 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/activity_main.xml" value="0.35052083333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/activity_register.xml" value="0.35052083333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_agent.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_contactus.xml" value="0.35052083333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_creditcard.xml" value="0.35052083333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_debitcard.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_donepayment.xml" value="0.35052083333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_ewallet.xml" value="0.35052083333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_faq.xml" value="0.28854166666666664" />
         <entry key="..\:/Users/user/AndroidStudioProjects/OFInsurance/app/src/main/res/layout/fragment_first.xml" value="0.35052083333333334" />
