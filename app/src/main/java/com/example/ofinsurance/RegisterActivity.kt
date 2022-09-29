@@ -138,8 +138,8 @@ class RegisterActivity : AppCompatActivity() {
 
     private fun validPassword(): String? {
         val passed = binding.passed.text.toString()
-        if (passed.length<8){
-            return "Minimum 8 Character Password"
+        if (passed.length<6){
+            return "Minimum 6 Character Password"
         }
         if (!passed.matches(".*[A-Z].*".toRegex())){
             return "Must Contain 1 Upper-case Character"

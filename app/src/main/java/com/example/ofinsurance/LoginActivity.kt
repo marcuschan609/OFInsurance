@@ -45,8 +45,7 @@ class LoginActivity : AppCompatActivity() {
                     if (it.isSuccessful) {
                         database.child(pass).get().addOnSuccessListener {
                             val username = it.child("username").value
-                            Toast.makeText(this, "Logging in Now...", Toast.LENGTH_SHORT)
-                                .show()
+                            Toast.makeText(this, "Logging in Now..."+username, Toast.LENGTH_SHORT).show()
                             val intent = Intent(this, HomeActivity::class.java)
                             startActivity(intent)
                         }
