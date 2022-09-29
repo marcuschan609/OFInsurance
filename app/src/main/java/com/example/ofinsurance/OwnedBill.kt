@@ -12,19 +12,17 @@ class OwnedBill : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
         val view = inflater.inflate(R.layout.fragment_owned_bill, container, false)
-        val pay3: Button = view.findViewById(R.id.btnPayNow)
-
-        pay3.setOnClickListener {
+        val pay3 : Button = view.findViewById(R.id.btnPayNow)
+        pay3.setOnClickListener{
             val fragment = payment()
-            val transaction = parentFragmentManager.beginTransaction()
-            transaction.replace(R.id.ownedbill, fragment).commit()
+            val transaction = fragmentManager?.beginTransaction()
+            transaction?.replace(R.id.ownedbill,fragment)?.commit()
             pay3.visibility = View.GONE
 
         }
+
+
         return view
     }
 }
-
-

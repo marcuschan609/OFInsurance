@@ -5,31 +5,76 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".payment"
-    android:id="@+id/payment">
+    android:id="@+id/payment"
+    android:background="@color/Grey">
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="219dp"
-        android:layout_height="27dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="180dp"
-        android:entries="@array/spinner"
+    <Button
+        android:id="@+id/btnewallet"
+        android:layout_width="378dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/black"
+        android:text="E-wallet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btncredit" />
+
+    <Button
+        android:id="@+id/btndebit"
+        android:layout_width="378dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="17dp"
+        android:backgroundTint="@color/black"
+        android:text="Debit card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnewallet" />
+
+    <Button
+        android:id="@+id/btncredit"
+        android:layout_width="378dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="17dp"
+        android:backgroundTint="@color/black"
+        android:text="credit card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paymentmethod" />
+
+    <Button
+        android:id="@+id/btnonline"
+        android:layout_width="378dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="17dp"
+        android:backgroundTint="@color/black"
+        android:text="Online Banking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btndebit" />
+
+    <TextView
+        android:id="@+id/paymentmethod"
+        android:layout_width="220dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="131dp"
+        android:text="Payment Method"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnsubmit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginEnd="160dp"
-        android:text="submit"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:backgroundTint="@color/red"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
